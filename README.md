@@ -10,3 +10,7 @@ Choose to use Entity Framework to get refamiliar since I've been using NHibernat
 
 Utilizes a database project to maintain the SQL Server Database to create and maintain updates to the database.
 This just feels quicker than using the SQL Server Management Studio interface.  SQL Data Tools are required to use the database project in VS2012.
+
+Uses AppHabor for builds, though the project is not yet ready for builds.
+
+http://concertthat.apphb.com/
