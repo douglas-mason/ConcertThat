@@ -15,7 +15,7 @@ namespace ConcertThat.Controllers.Api
         public IEnumerable<Venue> Get()
         {
             var db = new ConcertThatDbContext();
-            var model = db.Venues;
+            var model = db.Venues.ToList();
             return model;
         }
 

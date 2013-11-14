@@ -4,8 +4,9 @@ namespace ConcertThat.Domain.Entities
 {
     public class Ticket
     {
-        public virtual Guid Id { get; set; }
+        public Guid Id { get; set; }
+        public bool? Sold { get; set; } 
         public virtual Concert Concert { get; set; }
-        public virtual int CustomerId { get; set; }
+        public virtual Customer Customer { get; set; }
     }
 }

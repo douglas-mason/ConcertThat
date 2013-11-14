@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="9e8f2a82-8614-4d08-836b-65cf181bda9a" ChangeDateTime="11/14/2013 00:33:49">
+    <Property Name="ElementName" Value="[dbo].[Venue].[IX_Venue_Column]" />
+    <Property Name="ElementType" Value="SqlIndex" />
+    <Property Name="ParentElementName" Value="[dbo].[Venue]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Venue Name]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="eb0dcafe-88a5-4af2-be13-66e5259c1e1b" ChangeDateTime="11/14/2013 00:43:59">
+    <Property Name="ElementName" Value="[dbo].[Customer].[LastNa]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Customer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5498933e-d6ec-4670-b4b7-10035a6f4a7f" ChangeDateTime="11/14/2013 02:08:20">
+    <Property Name="ElementName" Value="[dbo].[Tickets].[ConcertId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tickets]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Concert_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="032660bb-61cc-4a01-abe3-8770f931f7d7" ChangeDateTime="11/14/2013 02:08:24">
+    <Property Name="ElementName" Value="[dbo].[Tickets].[CustomerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tickets]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Customer_Id" />
+  </Operation>
+</Operations>

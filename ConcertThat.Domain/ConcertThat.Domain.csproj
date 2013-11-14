@@ -45,10 +45,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Concert.cs" />
+    <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\Ticket.cs" />
     <Compile Include="Entities\Venue.cs" />
     <Compile Include="Orm\ConcertThatDbContext.cs" />
     <Compile Include="Orm\Mappings\ConcertMap.cs" />
+    <Compile Include="Orm\Mappings\CustomerMap.cs" />
+    <Compile Include="Orm\Mappings\TicketMap.cs" />
     <Compile Include="Orm\Mappings\VenueMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

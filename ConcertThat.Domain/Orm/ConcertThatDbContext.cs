@@ -8,5 +8,6 @@ namespace ConcertThat.Domain.Orm
         public DbSet<Venue> Venues { get; set; }
         public DbSet<Concert> Concerts { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<Customer> Customers { get; set; }
     }
 }

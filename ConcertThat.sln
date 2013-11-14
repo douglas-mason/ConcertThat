@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertThat.Web", "ConcertT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertThat.Domain", "ConcertThat.Domain\ConcertThat.Domain.csproj", "{777A16FF-350C-4A5A-A8FD-709D6D3472C5}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ConcertThat.Database", "ConcertThat.Database\ConcertThat.Database.sqlproj", "{4DA3F06F-3ECE-429A-8CDE-1B17DEFDC19D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,12 @@ Global
 		{777A16FF-350C-4A5A-A8FD-709D6D3472C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{777A16FF-350C-4A5A-A8FD-709D6D3472C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{777A16FF-350C-4A5A-A8FD-709D6D3472C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA3F06F-3ECE-429A-8CDE-1B17DEFDC19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA3F06F-3ECE-429A-8CDE-1B17DEFDC19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA3F06F-3ECE-429A-8CDE-1B17DEFDC19D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4DA3F06F-3ECE-429A-8CDE-1B17DEFDC19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA3F06F-3ECE-429A-8CDE-1B17DEFDC19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA3F06F-3ECE-429A-8CDE-1B17DEFDC19D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
