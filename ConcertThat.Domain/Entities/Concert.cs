@@ -9,6 +9,7 @@ namespace ConcertThat.Domain.Entities
         public string Title { get; set; }
         public DateTime Date { get; set; }
         public int TicketCapacity { get; set; }
+        public bool? Canceled { get; set; }
         public virtual Venue Venue { get; set; }
         public virtual IEnumerable<Ticket> TicketsSold { get; set; }
     }
