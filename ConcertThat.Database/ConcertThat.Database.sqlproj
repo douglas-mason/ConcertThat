@@ -63,7 +63,7 @@
   <ItemGroup>
     <Build Include="Tables\Venues.sql" />
     <Build Include="Tables\Concerts.sql" />
-    <Build Include="Tables\Tickest.sql" />
+    <Build Include="Tables\Tickets.sql" />
     <Build Include="Tables\Customers.sql" />
   </ItemGroup>
   <ItemGroup>
